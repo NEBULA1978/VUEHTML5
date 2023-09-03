@@ -1,0 +1,23 @@
+[33m81fcc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from 81fcc48f010de7e059918e3de831d0a68fd7ca59 to main
+[33m81fcc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{1}: checkout: moving from main to 81fcc48f010de7e059918e3de831d0a68fd7ca59
+[33m81fcc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{2}: checkout: moving from 81fcc48f010de7e059918e3de831d0a68fd7ca59 to main
+[33m81fcc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{3}: checkout: moving from main to 81fcc48f010de7e059918e3de831d0a68fd7ca59
+[33m81fcc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{4}: Branch: renamed refs/heads/master to refs/heads/main
+[33m81fcc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{6}: commit: Añado directivas v-if y v-on y un metodo en v-on llamo desde una funcion añado v-model escribo en input y veo en pantalla añado v-for, añado boton cambiar tecto de color This is the title
+[33m7ad3236[m HEAD@{7}: commit: Añado directivas v-if y v-on y un metodo en v-on llamo desde una funcion añado v-model escribo en input y veo en pantalla añado v-for
+[33ma14131d[m HEAD@{8}: commit: Añado directivas v-if y v-on y un metodo en v-on llamo desde una funcion añado v-model escribo en input y veo en pantalla
+[33m2955166[m HEAD@{9}: commit: Añado directivas v-if y v-on y un metodo en v-on llamo desde una funcion
+[33mceb2d53[m HEAD@{10}: commit: Añado directivas v-if y v-on
+[33m7faae51[m HEAD@{11}: commit: mostrando valor actual nombre y edad y estado anterior creo componente hijo2 y boton para cambiar valor
+[33m63760d8[m HEAD@{12}: commit: mostrando valor actual nombre y edad y estado anterior
+[33m01d3797[m HEAD@{13}: reset: moving to 01d3797
+[33m10183a8[m HEAD@{14}: reset: moving to 10183a8
+[33m10183a8[m HEAD@{15}: reset: moving to 10183a82623ead43355b57608fd4e95e94ca671d
+[33m4f7cfd6[m HEAD@{16}: reset: moving to 4f7cfd6caff23a6e68bbe6466b95863cf642e991
+[33m01d3797[m HEAD@{17}: reset: moving to 01d3797c64783557b96a5535df73124f90d57665
+[33m01d3797[m HEAD@{18}: reset: moving to 01d3797c64783557b96a5535df73124f90d57665
+[33m01d3797[m HEAD@{19}: reset: moving to 01d3797c64783557b96a5535df73124f90d57665
+[33m01d3797[m HEAD@{20}: commit: iniciando componentes padre e hijo,el padre envia al hijo dos valores, mostramos por pantalla,completado paso1
+[33m1daad33[m HEAD@{21}: commit: iniciando componentes padre e hijo,el padre envia al hijo dos valores, mostramos por pantalla,completado
+[33m4f7cfd6[m HEAD@{22}: commit: iniciando componentes padre e hijo,el padre envia al hijo dos valores, mostramos por pantalla
+[33m10183a8[m HEAD@{23}: commit (initial): iniciando componentes padre e hijo,el padre envia al hijo dos valores

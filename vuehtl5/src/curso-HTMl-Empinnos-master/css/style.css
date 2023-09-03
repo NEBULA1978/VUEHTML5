@@ -1,0 +1,476 @@
+/*! direccion flex */
+
+
+/* !flex-direction:row */
+
+
+/* !flex-direction:column */
+
+
+/*! flex-direction:row-reverse */
+
+
+/* !flex-direction:column.reverse */
+
+
+/* selector universal */
+
+
+/*!seleccion  todos los elementos html */
+
+
+/* * {
+    color: blue;
+} */
+
+
+/*! selector de elemento  se apica a todos los parrafos*/
+
+
+/* p {
+    color: blue;
+} */
+
+
+/*! selector por clase */
+
+
+/* .color-principal {
+    color: red;
+} */
+
+
+/*! selector por ID */
+
+
+/* #color-principal {
+    color: red;
+} */
+
+
+/*! selector descendiente */
+
+
+/* se aplica si esta el p dentro de un div */
+
+
+/* div p {
+    color: green;
+} */
+
+
+/*! se aplica al div y al elemento p */
+
+
+/* div,
+p {
+    color: green;
+} */
+
+
+/* seudoelentos */
+
+
+/* solo a la 1º linea delos parrafos */
+
+
+/* p::first-line {
+    color: blue;
+} */
+
+
+/* propiedades globales */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* para restaurar sin defecto por nagegador */
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+/*! el encabezado de la pagina */
+
+header {
+    background-color: #212121;
+    min-height: 80px;
+    padding-top: 15px;
+    /* evirta que salga el contenido del contenedor */
+    overflow: hidden;
+    border-bottom: #B7905A 3px solid;
+}
+
+.contenedor-flex-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* selector desendiente */
+
+.contenedor-flex-1 ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* se aplican a li si esta dentro de un contenedor con clases -flex-1 */
+
+.contenedor-flex-1 li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+
+/* a si esta dentro de li y li este dentro de una clases contenedor-flex-1 */
+
+.contenedor-flex-1 li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* equivalente a 15px */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/* banner */
+
+#banner {
+    min-height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../img/banneroscuro.png');
+}
+
+#banner h1 {
+    font-size: 4.5em;
+    color: white !important;
+    color: red;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 80px;
+    transform: scale(1, 1.1);
+    -webkit-transform: scale(1, 1.1);
+    -moz-transform: scale(1, 1.1);
+    -ms-transform: scale(1, 1.1);
+    -o-transform: scale(1, 1.1);
+}
+
+.ancho-contenido-banner {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.ancho-contenido-banner p {
+    color: white;
+    font-size: 1.6em;
+}
+
+
+/* CUOTA */
+
+.cuota {
+    background-color: #212121;
+    /* se valla acomodando */
+    min-height: 120px;
+    padding: 10px;
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+/* si span esta dentro de un conenedor que tenga la clase .cuota */
+
+.cuota span {
+    /* equivvalente a 20pixeles */
+    font-size: 2.0em;
+    padding-right: 20px;
+}
+
+
+/* quitamos decoracion de enlaces a */
+
+.cuota a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1.6em;
+    background-color: #B7905A;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 5px 12px 5px 12px;
+}
+
+
+/*! servicios */
+
+.contenedor-flex-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* si el div esta en un contenedor con la clase .contenedor-flex-2 */
+
+.contenedor-flex-2 div {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.7em;
+    border-top: #B7905A 3px solid;
+    min-height: 80px;
+    padding-top: 25px;
+}
+
+
+/*! pagina html nosotros */
+
+.seccion-nosotros-1 {
+    text-align: center;
+    width: 90%;
+    background-color: #B7905A;
+    /* arriba izquierda abajo derecha */
+    /* top right button left */
+    margin: 4% auto 4% auto;
+    /* en pixeles no se calcula el tamaño al reducir */
+    padding: 3% 0 3% 0;
+}
+
+.seccion-nosotros-1 span {
+    color: white;
+    font-size: 30px;
+    border: white 3px solid;
+    /*padding:  espacio entre borde y contenido */
+    /* en pixeles se mantiene el borde y paffing */
+    padding: 5px 10px 5px 10px;
+}
+
+.seccion-nosotros-2 {
+    text-align: center;
+    width: 90%;
+    margin: 4% auto 4% auto;
+}
+
+.seccion-nosotros-2 span {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* creamos el grid en pagina nosotros */
+
+.grid {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* para generar propiedad grid en este contedenedor div */
+    display: grid;
+    /* separar contenedores grid */
+    grid-gap: 1em;
+    /* acomodar filas y columnas con el tamaña dinamico */
+    grid-template-rows: auto;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "valores equipo" "mision equipo" "vision equipo";
+}
+
+.valores {
+    grid-area: valores;
+}
+
+.valores li {
+    list-style-type: none;
+    font-size: 1.6em;
+}
+
+.mision {
+    grid-area: mision;
+}
+
+.vision {
+    grid-area: vision;
+}
+
+.equipo {
+    grid-area: equipo;
+    /* introducir imagen en div */
+    background: url('../img/equipo.png');
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.grid p {
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+.grid h2 {
+    font-size: 2.5em;
+}
+
+
+/* seudoelementos */
+
+
+/* utilizamos selector .grid pero antes de h2 */
+
+
+/* para añadir punto antes de los titulos */
+
+.grid h2::before {
+    content: "\2022";
+    /* color: #B7905A; */
+    color: aqua;
+    padding-right: 10px;
+}
+
+.espacio-nosotros {
+    margin-bottom: 5%;
+}
+
+
+/* Pagina contacto html css */
+
+.contenedor-formulario {
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #212121;
+    padding-top: 20px;
+}
+
+
+/* seleccion descendente */
+
+.contenedor-formulario h3 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+}
+
+
+/* seleccion descendiente quiere decir que esta dentro del contenedor padre en cualquier lugar */
+
+
+/* seleccion hijo directo significa que esta dentro del contenedor padre pero no esta dentro de otro elemento como el caso de input */
+
+
+/* las propiedades que se coloquen adentro se van a aplicar al elemento div si esque div es hijo directo de la clase que contenga dormulario */
+
+.formulario>div {
+    padding-bottom: 20px;
+}
+
+
+/* selector desendiente diferentee al selector hijo directo */
+
+
+/* si input y textarea estan dentro de una clase .formulario */
+
+.formulario input,
+textarea {
+    font-size: 1.5em;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton {
+    color: white;
+    background-color: #b7905a;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 2.0em;
+    cursor: pointer;
+    padding: 5px 50px 5px 50px;
+    margin-bottom: 10px;
+}
+
+
+/* 75% de la ventana visible */
+
+.espacio-seccion {
+    min-height: 75vh;
+    margin-bottom: 7%;
+}
+
+
+/* mediaquerys */
+
+
+/* que se apilen cuando tenga menos de 768pixeles */
+
+@media(max-width:768px) {
+    .contenedor-flex-1 {
+        flex-wrap: wrap;
+    }
+    /* seccion de servivios */
+    .contenedor-flex-2 {
+        flex-wrap: wrap;
+    }
+    .equipo {
+        display: node;
+    }
+    /* para ocultar la foto */
+    .grid {
+        /* para generar propiedad grid en este contedenedor div */
+        display: grid;
+        /* separar contenedores grid */
+        grid-gap: 1em;
+        /* acomodar filas y columnas con el tamaña dinamico */
+        grid-template-rows: auto;
+        /* escondemos una columna */
+        grid-template-columns: 100%;
+        grid-template-areas: "valores" "mision" "vision ";
+    }
+    .contenedor-formulario {
+        width: 65%;
+    }
+    .boton {
+        font-size: 1.5em;
+        padding: 5px 30px;
+    }
+}
